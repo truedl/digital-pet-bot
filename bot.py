@@ -22,4 +22,4 @@ for x in cogs:
     except Exception as e:
         print(f'Error ocurred while cog {x} loaded\n{e}')
 
-bot.run('NTA1NDIyNDg5Njk1MDI3MjQw.DuB-Iw.TLlkMSzacfHQNiKhSGopiq0ty2Y')
+bot.run('token')
