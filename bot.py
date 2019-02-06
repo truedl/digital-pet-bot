@@ -20,6 +20,6 @@ for x in cogs:
     try:
         bot.load_extension(x)
     except Exception as e:
-        print(f'Error ocurred while cog {x} loaded\n{e}')
+        print(f'Error ocurred while cog {x} was loaded\n{e}')
 
 bot.run('token')
